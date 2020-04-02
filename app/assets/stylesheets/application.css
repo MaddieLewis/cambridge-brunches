@@ -13,3 +13,145 @@
  *= require_tree .
  *= require_self
  */
+.hero {
+    /* Sizing */
+/*width: 100vw;*/
+    height: 100vh;
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Text styles */
+    text-align: center;
+    color: white;
+
+    /* Background styles */
+    background-image: url(https://cdn.pixabay.com/photo/2015/03/26/09/42/breakfast-690128_960_720.jpg);
+
+    /*Below could also be a good image*/
+    /*https://images.mentalfloss.com/sites/default/files/styles/width-constrained-728/public/84010-nicolas-cage.jpg*/
+    background-size: cover !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.hero h1 {
+    /* Text styles */
+    font-size: 5em;
+    color: white;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+
+    /* Margins */
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+.hero h2 {
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+
+}
+
+.footer {
+    /* Sizing */
+/*width: 100vw;*/
+    height: 100%;
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Text styles */
+    text-align: center;
+    color: white;
+
+    /* Background styles */
+    background-color: black;
+
+    /*Below could also be a good image*/
+    /*https://images.mentalfloss.com/sites/default/files/styles/width-constrained-728/public/84010-nicolas-cage.jpg*/
+    /*background-size: cover !important;*/
+    background-position: center;
+    background-repeat: repeat-x;
+    /*background-repeat: no-repeat;*/
+    background-attachment: fixed;
+    z-index: 3;
+}
+
+.intro {
+  display: flex;
+  justify-content: space-around;
+}
+.card {
+  box-shadow: 4px 4px 16px 4px rgba(0,0,0,0.1);
+  background-color: white;
+  align-content: center;
+  padding: 24px;
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-bottom: 16px;
+  padding-top: 32px;
+  text-align: center;
+  width: 33%;
+}
+.container {
+  margin: 10px auto;
+  width: 900px;
+}
+
+.cards {
+  margin-top: 40px;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+@import url("components/cards.css");
+@import url("components/banners.css");
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: #BDD9BF;
+}
+
+/* Custom design below! */
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+.list-inline {
+  display: inline;
+  padding: 10px 40px;
+  text-align: center;
+  color: white;
+}
