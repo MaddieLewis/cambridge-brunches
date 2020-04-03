@@ -33,6 +33,10 @@ gem 'font-awesome-sass', '~> 5.12.0'
 gem 'simple_form'
 gem 'devise'
 
+source "https://rails-assets.org"
+
+gem 'rails-assets-bootstrap', ">= 4.0.0.alpha.2"
+
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 

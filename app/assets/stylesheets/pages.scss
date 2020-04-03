@@ -4,7 +4,7 @@
 @import "components/index";
 
 
-@import "bootstrap/scss/bootstrap"; // picks it up in node_modules!
+@import "bootstrap"; // picks it up in node_modules!
 @import "font-awesome-sprockets";
 @import "font-awesome";
 
