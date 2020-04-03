@@ -75,8 +75,7 @@
 
 /* Fontawesome */
 @import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
-@import url("components/cards.css");
-@import url("components/banners.css");
+
 /* Utilities */
 body {
   margin: 0;
