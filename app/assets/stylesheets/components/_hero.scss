@@ -1,0 +1,67 @@
+.hero {
+    /* Sizing */
+    width: 100vw;
+    height: calc(100vh - 60px);
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Text styles */
+    text-align: center;
+    color: white;
+
+    /* Background styles */
+    /*background-image: url(https://cdn.pixabay.com/photo/2015/03/26/09/42/breakfast-690128_960_720.jpg);*/
+    background-image: url(https://live.staticflickr.com/3315/3241926435_cb6ec2c588_b.jpg);
+    /*Below could also be a good image*/
+    background-size: cover !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.hero h1 {
+    /* Text styles */
+    font-size: 5em;
+    color: white;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+
+    /* Margins */
+    margin-top: 0;
+    margin-bottom: 0.5em;
+
+
+    /*position: absolute;*/
+
+
+    /*width: 544px;*/
+    /*height: 102px;*/
+    /*left: 203px;*/
+    /*top: 358px;*/
+
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    /*font-size: 84px;*/
+    /*line-height: 102px;*/
+    /*display: flex;*/
+    /*align-items: center;*/
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+
+    /*text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);*/
+}
+.hero h2 {
+  /*text-shadow: 2px 2px rgba(0, 0, 0, 0.5);*/
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 39px;
+  /* identical to box height */
+
+
+  color: #FFFFFF;
+
+}
