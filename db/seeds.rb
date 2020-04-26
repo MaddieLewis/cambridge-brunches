@@ -9,5 +9,6 @@ puts "destroying all seeds ..."
 User.destroy_all
 
 puts "seeding users ..."
-user = User.create!(first_name: 'Maddie', last_name: 'Lewis', email: 'maddie@simplywellbeing.com', password: "cambrunch")
+details = { first_name: 'Maddie', last_name: 'Lewis', email: 'maddie@simplywellbeing.com', password: "cambrunch" }
+user = User.create!(details)
 puts "finished!"
