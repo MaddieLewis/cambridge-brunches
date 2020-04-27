@@ -7,5 +7,7 @@
 <div class="container">
   <% @colleges.each do |college| %>
     <h1 style="color: black;"><%= college.name %></h1>
+    <%= link_to college.name, college_path(college) %>
+
   <% end %>
 </div>

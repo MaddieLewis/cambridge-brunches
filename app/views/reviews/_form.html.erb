@@ -1,0 +1,11 @@
+<div class="container parent-center mt-4" style="justify-content: center;">
+  <h2 class="" style="font-weight: 100">Your brunch experience!</h1>
+  <div class="width-100">
+    <%= simple_form_for [ @college, @review ], url: college_reviews_path do |f| %>
+      <%= f.input :title, label: "How would you describe your brunch in one sentance?", required: true %>
+      <%= f.input :description, as: :text, label: "Give us a detailed run down!", required: true %>
+      <%= f.input :rating, collection: [ 1, 2, 3, 4, 5 ], required: true %>
+      <%= f.button :submit, "Submit your review", class: "btn btn-wide" %>
+    <% end %>
+  </div>
+</div>

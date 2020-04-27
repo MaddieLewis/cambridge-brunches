@@ -1,1 +1,5 @@
 <%= link_to 'Write a review', new_college_review_path(@college) %>
+<% @college.reviews.each do |review| %>
+  <h2><%= review.title %></h2>
+  <%#= link_to '<i class="fas fa-trash-alt fa-sm"></i>'.html_safe,  review,  method: :delete, data: { confirm: 'Are you sure?' }, class: "link" %>
+<% end %>

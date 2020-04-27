@@ -1,1 +1,5 @@
 <h1>Hi <%= @user.first_name %></h1>
+<% @user.reviews.each do |review| %>
+  <h2><%= review.title %></h2>
+  <%= link_to '<i class="fas fa-trash-alt fa-sm"></i>'.html_safe,  review,  method: :delete, data: { confirm: 'Are you sure?' }, class: "link" %>
+<% end %>
