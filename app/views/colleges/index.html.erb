@@ -1,0 +1,11 @@
+<div class="hero">
+  <div class="hero-inner">
+      <h1>CamBrunch</h1>
+      <h2>The quest for the best brunch in Cambridge</h2>
+  </div>
+</div>
+<div class="container">
+  <% @colleges.each do |college| %>
+    <h1 style="color: black;"><%= college.name %></h1>
+  <% end %>
+</div>
