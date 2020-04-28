@@ -2,14 +2,19 @@
     /* Sizing */
     width: 100vw;
     height: calc(100vh - 60px);
+    // height: 100vh;
+    // position: absolute;
+    // top: 0px;
+
     max-width: 100%;
     /* Flexbox stuff */
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
+    padding: 10%;
 
     /* Text styles */
-    text-align: center;
+    text-align: left;
     color: white;
 
     /* Background styles */
@@ -25,7 +30,7 @@
     /* Text styles */
     font-size: 5em;
     color: white;
-    text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+    // text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
 
     /* Margins */
     margin-top: 0;
