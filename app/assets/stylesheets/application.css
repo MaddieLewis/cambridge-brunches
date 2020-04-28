@@ -43,10 +43,6 @@
     z-index: 3;
 }
 
-./*intro {
-  display: flex;
-  justify-content: space-around;
-}*/
 .card {
   box-shadow: 4px 4px 16px 4px rgba(0,0,0,0.1);
   background-color: white;
