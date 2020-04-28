@@ -35,7 +35,7 @@ html, body {
   padding: 16px auto;
 }
 .card-product {
-  height: 120px;
+  height: 100px;
   background-size: cover;
   background-position: center;
   border-radius: 4px;
@@ -52,9 +52,12 @@ html, body {
   box-shadow: 0 0 24px rgba(0, 0, 0, 0.4);
 }
 .card-product-infos {
-  margin-left: 10px;
+  // margin-left: 10px;
   padding: 20px;
   text-decoration: none;
+  text-align: center;
+  justify-content: center;
+  width: 200px;
 
   color: #5c5c5c;
   letter-spacing: 0.02em;
@@ -77,8 +80,8 @@ html, body {
   text-decoration: none !important;
 }
 .card-product-img {
-  height: 120px;
-  width: 120px;
+  height: 100px;
+  width: 100px;
   background-size: cover;
   background-repeat: no-repeat;
   object-fit: cover;
